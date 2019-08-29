@@ -4,4 +4,5 @@ RUN go get -u github.com/valyala/quicktemplate/qtc && \
     go get -u github.com/tdewolff/minify/cmd/minify && \
     go get -u github.com/growler/go-imbed && \
     go get -u github.com/bradrydzewski/togo && \
+    go get github.com/golang/mock/mockgen
     rm -rf /go/pkg/* /go/src/*
